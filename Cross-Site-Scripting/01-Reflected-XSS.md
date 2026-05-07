@@ -20,7 +20,8 @@
 
   I used a specialized XXS payload injected into the funtional search bar in the web application
   
-  <img width="1090" height="610" alt="image" src="https://github.com/user-attachments/assets/9f5c0188-0772-4f94-8eec-327540892a85" />
+
+  Fig 1. <img width="1090" height="610" alt="image" src="https://github.com/user-attachments/assets/9f5c0188-0772-4f94-8eec-327540892a85" />
 
 ### Payload
 `<script>alert(1)</script>`
@@ -28,12 +29,11 @@
   ## Verification
   - I pasted the XXS payload on the search bar
   - I clicked search
-  - **Result:** Figure 1: The application executed unsanitized user input in the HTML context, confirming the presence of a reflected Cross-Site Scripting (XSS) vulnerability.
-<img width="658" height="372" alt="WhatsApp Image 2026-05-07 at 11 28 07" src="https://github.com/user-attachments/assets/28c5dafa-bd0a-4205-ae4e-38b535eb7622" />
+  - **Result:** The application executed unsanitized user input in the HTML context, confirming the presence of a reflected Cross-Site Scripting (XSS) vulnerability.
+    
+Fig 2. <img width="658" height="372" alt="WhatsApp Image 2026-05-07 at 11 28 07" src="https://github.com/user-attachments/assets/28c5dafa-bd0a-4205-ae4e-38b535eb7622" />
 
-
-
-<img width="941" height="393" alt="image" src="https://github.com/user-attachments/assets/95db3796-f199-402f-910f-988fe0e5b7da" />
+Fig 3. <img width="941" height="393" alt="image" src="https://github.com/user-attachments/assets/95db3796-f199-402f-910f-988fe0e5b7da" />
 
 
    ## Business Impact
