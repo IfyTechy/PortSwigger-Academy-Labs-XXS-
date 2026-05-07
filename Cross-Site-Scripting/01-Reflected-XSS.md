@@ -25,4 +25,11 @@
 ### Payload
 `<script>alert(1)</script>`
 
+  ## Verification
+  - I pasted the XXS payload on the search bar
+  - I clicked search
+  - **Result:** I received a popup alert displaying 1 on the screen
+<img width="658" height="372" alt="WhatsApp Image 2026-05-07 at 11 28 07" src="https://github.com/user-attachments/assets/28c5dafa-bd0a-4205-ae4e-38b535eb7622" />
+
+    
 
