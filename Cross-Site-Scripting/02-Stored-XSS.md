@@ -1,4 +1,5 @@
-**Lab Title:** Stored XSS in comment section  
+## Lab Title: Stored XSS in comment section  
+
 - **Category:** Cross-Site Scripting  
 - **Level:** Practitioner  
 - **Platform:** PortSwigger Web Security Academy  
