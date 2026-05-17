@@ -15,14 +15,19 @@ Exploit a reflected XSS vulnerability where user input is reflected inside an HT
 ## Exploitation  
 By injecting a payload that breaks out of the attribute value, arbitrary JavaScript can be executed.  
 
+<img width="810" height="348" alt="image" src="https://github.com/user-attachments/assets/0968546c-e568-463d-8059-17f6d502ebb0" />
+
 ### Payload Example  
 `"onmouseover="alert(1)`
-
 
 ## Verification  
 - Inserted the payload into the vulnerable parameter  
 - Reloaded the page  
 - Observed the alert box execution, confirming reflected XSS  
+
+<img width="681" height="458" alt="image" src="https://github.com/user-attachments/assets/feb8d76c-1f06-4c63-96ba-23d6bacf4919" />
+
+<img width="1083" height="375" alt="image" src="https://github.com/user-attachments/assets/49dc30ef-5d97-4986-95d1-96565cb90e33" />
 
 ## Business Impact  
 - Attackers can execute arbitrary JavaScript in the victim’s browser  
